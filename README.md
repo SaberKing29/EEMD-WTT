@@ -1,2 +1,2 @@
-# EEMD-WTT
-EEDM Joint Wavelet Threshold Transform
+# EEMD-WTD
+EEMD and improved wavelet threshold
