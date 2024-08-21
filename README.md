@@ -7,10 +7,7 @@
 
 - [安装](#安装)
 - [用法](#用法)
-- [功能](#功能)
 - [演示](#演示)
-- [贡献](#贡献)
-- [许可证](#许可证)
 - [联系方式](#联系方式)
 
 ## 安装
@@ -19,16 +16,25 @@
 
 ## 用法
 
-要运行'eemd_wavelet.m'代码，请修改对应的文件读取，仓库中存放了一个可供参考的.csv文件'processed_voice.csv'。
+1.要运行'eemd_wavelet.m'代码，请修改对应的文件读取，仓库中存放了一个可供参考的.csv文件'processed_voice.csv'。
 
+2.要运行'Comparative_experiment.m'代码，请设置对应的仿真函数，包括原始信号与噪声信号以及加噪信号，代码中做了四组仿真实验，实验中会输出对应的图像，以及PSNR与RMSE的值。
 
+注意：仿真信号请根据自己的任务进行设计。
 
-### 前提条件
+## 演示
 
-- [Node.js](https://nodejs.org/) 版本 12.x 或更高版本
-- [Git](https://git-scm.com/)
+'eemd_wavelet.m'：
 
-### 克隆仓库
+![Project 1](./eemd_wavelet/img1.png)
+
+'Comparative_experiment.m':
+
+![Project 2](./experiment/img2.png)
+
+## 联系方式
+
+请留言联系
 
 ```bash
 git clone https://github.com/your-username/your-repository.git
